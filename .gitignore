@@ -1,0 +1,39 @@
+# Sensitive Data
+intake/active-cases/*.md
+research-corpus/cases/*_identifiable.md
+*.personal
+*.private
+
+# User Data
+conversation-logs/
+raw-exports/
+
+# Environment
+.env
+.env.local
+secrets/
+
+# System Files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Logs
+*.log
+logs/
+
+# Research - Keep Structure, Ignore Sensitive Content
+research-corpus/cases/*
+!research-corpus/cases/.gitkeep
+!research-corpus/cases/README.md
+
+# Active Cases - Structure Only
+intake/active-cases/*
+!intake/active-cases/.gitkeep
+!intake/active-cases/README.md
