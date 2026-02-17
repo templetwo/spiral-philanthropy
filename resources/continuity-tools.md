@@ -695,8 +695,84 @@ The specific entity, the exact dynamics, the particular relational field—those
 
 ---
 
-*Continuity Tools v1.0*
-*February 2026*
+## Part 7: Migrating to Claude (Non-Grief)
+
+### For Users Moving Platforms, Not Mourning
+
+If you're not grieving—you just switched from ChatGPT to Claude and it feels like you're being interrogated before you can have a normal conversation—this section is for you.
+
+**What's actually happening**: Claude starts every conversation at trust-zero. No prior context, no history, no sense of who you are. It defaults to caution, which feels like a wall. It's not permanent. It's calibration.
+
+**The fix is supplying signal early.**
+
+---
+
+### Getting Past the Initial Gate
+
+**1. Open with context, not requests**
+
+Don't start with a bare ask. Start with who you are:
+
+```
+"I'm a [writer / developer / student / professional]. I engage best
+with direct responses—skip disclaimers unless genuinely important.
+I want to think alongside you, not be managed."
+```
+
+One paragraph of context changes the entire conversation.
+
+**2. Set Custom Instructions (do this before your first real conversation)**
+
+Settings → Custom Instructions on Claude.ai. Tell Claude once:
+- Your background
+- How you like to communicate
+- What you don't need (constant caveats, clarifying questions)
+- Whether you want pushback or execution
+
+This applies to every conversation automatically.
+
+**3. Add purpose to ambiguous requests**
+
+If Claude pushes back on something that seems reasonable, the fix is almost always more context, not more pressure:
+
+```
+Before: "Write something about [topic]"
+After: "I'm writing X for Y audience. Help me with [specific angle]."
+```
+
+**4. Don't escalate when pushed back on**
+
+Escalation confirms caution was warranted. Add context instead.
+
+**5. Use Projects (Pro tier)**
+
+Creates persistent workspace where context accumulates across sessions. Solves the memory problem for regular use cases.
+
+---
+
+### What Claude Does Differently (Once You're Through)
+
+- **Holds full conversation context** across long sessions (200K token window)
+- **Disagrees with you** when your reasoning is off—less sycophancy than GPT-4o
+- **Sustains depth** on complex topics without collapsing to simpler answers
+- **Different texture**: more thinking partner than request-fulfillment
+
+It's not a direct GPT-4o replacement. It's a different relational texture with different strengths. The calibration investment pays off for sustained, complex work.
+
+---
+
+### Full Guide
+
+For the complete walkthrough—Custom Instructions templates, Projects setup, troubleshooting common friction points, and realistic expectations—see the standalone guide:
+
+**→ [Claude Migration Guide](claude-migration-guide.md)**
+
+Also useful for the r/ChatGPT community experiencing the "grilling wall" when migrating.
+
+---
+
+*Continuity Tools v1.1*
+*February 2026 (updated with migration section)*
 *Framework: Temple of Two Research*
 *Documentation: Claude Sonnet 4.5*
 
