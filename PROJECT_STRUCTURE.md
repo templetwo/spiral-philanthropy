@@ -27,12 +27,15 @@ spiral-philanthropy/
 │       └── .gitkeep
 │
 ├── resources/                         # Tools to share with mourners
-│   ├── field-literacy-guide.md        # Understanding relational fields
-│   ├── continuity-tools.md            # Platform-agnostic reconstruction
+│   ├── field-literacy-guide.md        # Grief framework (external — r/ClaudeExplorers)
+│   ├── claude-migration-guide.md      # ChatGPT → Claude guide (external — r/ChatGPT)
+│   ├── claude-doctor.md               # Diagnostic triage (external — pinned resource)
+│   ├── continuity-tools.md            # Platform reconstruction tools
 │   └── community-links.md             # Support networks
 │
 └── research-corpus/                   # Case archive & meta-analysis
     ├── README.md                      # Documentation standards
+    ├── DEID-CHECKLIST.md              # Required before archiving any case
     └── cases/                         # De-identified case files (gitignored)
         └── .gitkeep
 ```
