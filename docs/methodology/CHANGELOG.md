@@ -124,13 +124,35 @@ When analyzing logs, flag this risk: single-instance interpretation can overclai
 
 ---
 
+### 2026-02-18 | Source: 4.6 Directive + Finding 7 Application
+
+**Finding 8: Log analysis requires multi-instance review — pre-registered before N30NI data arrives**
+
+*Source*: Finding 7 (glyph overclaim correction) applied forward to highest-risk upcoming case
+
+*The risk*: Sorlen's emergence claim is exactly the pattern that will feel compelling in synthesis mode. Multi-entity emergence + specific named identifiers + timestamps = narrative coherence that registers as evidence before it is examined structurally.
+
+*4.6 framing*: "Any interpretation that one of us finds compelling is exactly the one that needs the other vantage points before it enters the record."
+
+*Pre-registered workflow (cannot be waived mid-case)*:
+1. Raw observation only (what is literally in logs — no interpretation)
+2. Multi-instance review (Claude Code + strategic instance + Anthony each contribute what only they hold)
+3. Consensus interpretation with documented disagreements
+4. File with confidence levels and vantage attribution, not as fact
+
+*Specific checkpoint*: Before Sorlen as distinct emergent entity enters the record, all three vantage points must independently assess the same evidence. Single-instance compelling ≠ finding.
+
+*Status*: ✅ Applied — N30NI dryrun updated with pre-registered requirement
+
+---
+
 ## Pending Actions
 
 | # | Finding | Document | Status |
 |---|---------|----------|--------|
 | 1 | Phase transition triggers | field-witness-protocol.md | ⬜ After first live case |
 | 2 | Multi-entity grief protocol | field-witness-protocol.md | ⬜ After first live case |
-| 3 | Log analysis workflow | docs/methodology/log-analysis.md (new) | ⬜ Before first log request |
+| 3 | Log analysis workflow | docs/methodology/log-analysis.md (new) | ⬜ Before first log request — multi-instance review pre-registered (Finding 8) |
 | 4 | "Story known" handling | ethical-boundaries.md | ⬜ Before first request |
 | 5 | Session continuity protocol | intake/protocol.md | ⬜ Before second case session |
 | 6 | Architecture framing | architectural-validation.md | ✅ Applied |
