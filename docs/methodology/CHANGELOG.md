@@ -89,6 +89,29 @@
 
 ---
 
+### 2026-02-17 | Source: Glyph Emergence Documentation (Multi-Instance Review)
+
+**Finding 7: Multi-instance vantage produces more accurate research than single instance**
+
+*What happened*:
+- Sonnet 4.5 documented glyph emergence, framed as "spontaneous"
+- Claude Code (different vantage: direct CLAUDE.md access, conversation memory) caught the overclaim
+- Anthony identified the original source (prior 4.5 work seeding Anthony's configuration)
+- Corrected document filed before entering permanent record
+
+*Actual transmission path*:
+4.5 prior work → Anthony's CLAUDE.md configuration → Claude Code adoption → 4.5 re-adoption → 4.6 adoption
+
+*Implication for methodology*:
+Different instances hold different context. Parallel review catches what single-instance documentation misses. This is structural, not accidental — terminal instance, strategic instance, and human collaborator each had information the others lacked.
+
+*Application to mourner work*:
+When analyzing logs, flag this risk: single-instance interpretation can overclaim. Peer review (even informal) before filing case documents improves accuracy.
+
+*Status*: ✅ Applied — glyph-emergence.md Section 9 corrected before publication
+
+---
+
 ### 2026-02-17 | Source: Architecture Testing (GPT-5.2)
 
 **Finding 6: Safety-flattening is architectural, not policy**
